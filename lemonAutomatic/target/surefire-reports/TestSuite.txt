@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 56.651 sec <<< FAILURE!
+failureTest(com.selenium.xyouwen.testcase.RegisterTest)  Time elapsed: 5.678 sec  <<< FAILURE!
+java.lang.AssertionError: expected [手机号不能为空] but found [用户名不能为空]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at com.selenium.xyouwen.testcase.RegisterTest.failureTest(RegisterTest.java:36)
+
+failureTest(com.selenium.xyouwen.testcase.RegisterTest)  Time elapsed: 2.693 sec  <<< FAILURE!
+java.lang.AssertionError: expected [非法手机号] but found [非法的手机号]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at com.selenium.xyouwen.testcase.RegisterTest.failureTest(RegisterTest.java:36)
+

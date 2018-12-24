@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pages>
+	<page name="com.selenium.xyouwen.testcase.RegisterTest"  description = "注册页面">
+		<locator by="id" value="mobilephone" description="用户名"></locator>
+		<locator by="id" value="password" description="密码"></locator>
+		<locator by="id" value="pwdconfirm" description="确认密码"></locator>
+		<locator by="id" value="signup-button" description="注册按钮"></locator>
+		<locator by="className" value="tips" description="实际结果"></locator>
+	</page>
+
+	<page name="com.selenium.xyouwen.testcase.LoginTest" description = "登陆页面">
+		<locator by="id" value="mobilephone" description="用户名"></locator>
+		<locator by="id" value="password" description="密码"></locator>
+		<locator by="id" value="login" description="登陆按钮"></locator>
+	</page>
+	
+	<page name="百度测试">
+		<locator by="id" value="kw" description="输入框"></locator>
+	</page>
+</pages>

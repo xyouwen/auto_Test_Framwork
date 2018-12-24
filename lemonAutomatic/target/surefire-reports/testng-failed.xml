@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]">
+  <parameter name="installPath" value="C:\Program Files (x86)\Mozilla Firefox\firefox.exe"/>
+  <parameter name="driverPath" value=""/>
+  <parameter name="browserName" value="firefox"/>
+  <parameter name="seleniumVerison" value=""/>
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="com.selenium.xyouwen.listner.FailureListner"/>
+  </listeners>
+  <test name="SeleniumUtilTest(failed)">
+    <classes>
+      <class name="com.selenium.xyouwen.testcase.RegisterTest">
+        <methods>
+          <include name="failureTest" invocation-numbers="0 1"/>
+          <include name="afterSuite"/>
+          <include name="afterMethod"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.selenium.xyouwen.testcase.RegisterTest -->
+    </classes>
+  </test> <!-- SeleniumUtilTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

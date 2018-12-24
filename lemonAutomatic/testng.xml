@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 这条语句用来规范testng.xml文件的写入格式，有了这条语句之后，打入<时，才有智能提醒 -->
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<!-- suite的名称 -->
+<suite name="Suite" parallel="false">
+
+	<!-- test的名称 -->
+	<test name="SeleniumUtilTest">
+		<classes>
+			<!-- 一定要把执行的java文件的路径写进来 -->
+			<class name="com.selenium.xyouwen.testcase.RegisterTest" />
+		</classes>
+	</test> <!-- Test -->
+
+	<!-- 注意：目前只支持ie、chrome、firefox
+	浏览器 ie驱动路径："src/test/resources/driver/IEDriverServer.exe" 
+	chrome驱动路径：“src/test/resources/driver/chromedriver.exe” 
+	firefox安装路径：" C:\Program Files (x86)\Mozilla Firefox\firefox.exe" -->
+
+	<!-- 浏览器的名称 -->
+	<parameter name="browserName" value="firefox"></parameter>
+	<!-- 浏览器的安装路径 -->
+	<parameter name="installPath"
+		value="C:\Program Files (x86)\Mozilla Firefox\firefox.exe"></parameter>
+	<!-- 浏览器的驱动路径 -->
+	<parameter name="driverPath" value=""></parameter>
+	<!-- selenium的版本 -->
+	<parameter name="seleniumVerison" value=""></parameter>
+
+	<listeners>
+		<!-- 用来渲染监听报告的网页 -->
+		<listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
+		<!-- 监听失败截图 -->
+		<listener
+			class-name="com.selenium.xyouwen.listner.FailureListner"></listener>
+	</listeners>
+
+</suite> <!-- Suite -->
