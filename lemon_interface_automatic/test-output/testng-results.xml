@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="11" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="2542" started-at="2018-12-11T09:17:22Z" finished-at="2018-12-11T09:17:25Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="2542" started-at="2018-12-11T09:17:22Z" finished-at="2018-12-11T09:17:25Z">
+      <class name="com.selenium.xyouwen.testcase.ApiTestCaseProcessor">
+        <test-method status="PASS" signature="excuteTestCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.selenium.xyouwen.testcase.ApiTestCaseProcessor@21a06946]" name="excuteTestCase" duration-ms="1116" started-at="2018-12-11T17:17:23Z" data-provider="datas" finished-at="2018-12-11T17:17:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{"mobilephone":"13888886666","pwd":"123456","regname":"柠檬班"}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[{"status":1,"code":"20110","data":null,"msg":"注册成功"}]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[[{"no":"1","sql":"select count(*) as totalNum from member where mobilephone='13888886666'"}]]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[[{"no":"1","sql":"select count(*) as totalNum from member where mobilephone='13888886666'"}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- excuteTestCase -->
+        <test-method status="PASS" signature="excuteTestCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.selenium.xyouwen.testcase.ApiTestCaseProcessor@21a06946]" name="excuteTestCase" duration-ms="251" started-at="2018-12-11T17:17:25Z" data-provider="datas" finished-at="2018-12-11T17:17:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{"mobilephone":"13888886666","pwd":"123456","regname":"柠檬班"}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[{"status":0,"code":"20110","data":null,"msg":"手机号码已被注册"}]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[[{"no":"1","sql":"select count(*) as totalNum from member where mobilephone='13888886666'"}]]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[[{"no":"1","sql":"select count(*) as totalNum from member where mobilephone='13888886666'"}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- excuteTestCase -->
+        <test-method status="PASS" signature="excuteTestCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.selenium.xyouwen.testcase.ApiTestCaseProcessor@21a06946]" name="excuteTestCase" duration-ms="26" started-at="2018-12-11T17:17:25Z" data-provider="datas" finished-at="2018-12-11T17:17:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{"mobilephone":"13888886666","pwd":"","regname":"柠檬班"}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[{"status":0,"code":"20103","data":null,"msg":"密码不能为空"}]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- excuteTestCase -->
+        <test-method status="PASS" signature="excuteTestCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.selenium.xyouwen.testcase.ApiTestCaseProcessor@21a06946]" name="excuteTestCase" duration-ms="25" started-at="2018-12-11T17:17:25Z" data-provider="datas" finished-at="2018-12-11T17:17:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{"mobilephone":"","pwd":"","regname":"柠檬班"}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[{"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- excuteTestCase -->
+        <test-method status="PASS" signature="excuteTestCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.selenium.xyouwen.testcase.ApiTestCaseProcessor@21a06946]" name="excuteTestCase" duration-ms="24" started-at="2018-12-11T17:17:25Z" data-provider="datas" finished-at="2018-12-11T17:17:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{"mobilephone":"135","pwd":"123456","regname":"柠檬班"}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[{"status":0,"code":"20109","data":null,"msg":"手机号码格式不正确"}]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- excuteTestCase -->
+        <test-method status="PASS" signature="excuteTestCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.selenium.xyouwen.testcase.ApiTestCaseProcessor@21a06946]" name="excuteTestCase" duration-ms="39" started-at="2018-12-11T17:17:25Z" data-provider="datas" finished-at="2018-12-11T17:17:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{"mobilephone":"13888886666","pwd":"123","regname":"柠檬班"}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[{"status":0,"code":"20108","data":null,"msg":"密码长度必须为6~18"}]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- excuteTestCase -->
+        <test-method status="PASS" signature="excuteTestCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.selenium.xyouwen.testcase.ApiTestCaseProcessor@21a06946]" name="excuteTestCase" duration-ms="29" started-at="2018-12-11T17:17:25Z" data-provider="datas" finished-at="2018-12-11T17:17:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{"mobilephone":"13888886666","pwd":"123456"}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[{"status":"1","code":"10001","data":null,"msg":"登录成功"}]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- excuteTestCase -->
+        <test-method status="PASS" signature="excuteTestCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.selenium.xyouwen.testcase.ApiTestCaseProcessor@21a06946]" name="excuteTestCase" duration-ms="23" started-at="2018-12-11T17:17:25Z" data-provider="datas" finished-at="2018-12-11T17:17:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{"mobilephone":"13888886666","pwd":""}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[{"status":0,"code":"20103","data":null,"msg":"密码不能为空"}]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- excuteTestCase -->
+        <test-method status="PASS" signature="excuteTestCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.selenium.xyouwen.testcase.ApiTestCaseProcessor@21a06946]" name="excuteTestCase" duration-ms="23" started-at="2018-12-11T17:17:25Z" data-provider="datas" finished-at="2018-12-11T17:17:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{"mobilephone":"","pwd":"123456"}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[{"status":"0","code":"20103",data:null,"msg":"手机号不能为空"}]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- excuteTestCase -->
+        <test-method status="PASS" signature="excuteTestCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.selenium.xyouwen.testcase.ApiTestCaseProcessor@21a06946]" name="excuteTestCase" duration-ms="31" started-at="2018-12-11T17:17:25Z" data-provider="datas" finished-at="2018-12-11T17:17:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{"mobilephone":"13888888887","pwd":"123456"}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[{"status":"0","code":"20111",data:null,"msg":"用户名或者密码错误"}]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- excuteTestCase -->
+        <test-method status="PASS" signature="excuteTestCase(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.selenium.xyouwen.testcase.ApiTestCaseProcessor@21a06946]" name="excuteTestCase" duration-ms="28" started-at="2018-12-11T17:17:25Z" data-provider="datas" finished-at="2018-12-11T17:17:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[{"mobilephone":"13888886666","pwd":"1234567"}]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[{"status":"0","code":"20111",data:null,"msg":"用户名或者密码错误"}]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- excuteTestCase -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.selenium.xyouwen.testcase.ApiTestCaseProcessor@21a06946]" name="afterSuite" is-config="true" duration-ms="367" started-at="2018-12-11T17:17:25Z" finished-at="2018-12-11T17:17:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.selenium.xyouwen.testcase.ApiTestCaseProcessor -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

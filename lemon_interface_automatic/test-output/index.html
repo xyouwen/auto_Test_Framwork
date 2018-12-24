@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
+              <span class="suite-name border-passed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
+                    <span>C:\Users\51000765\AppData\Local\Temp\testng-eclipse--1295860666\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">11 methods,   11 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.selenium.xyouwen.testcase.ApiTestCaseProcessor" hash-for-method="excuteTestCase(2, 1, null, {&quot;mobilephone&quot;:&quot;13888886666&quot;,&quot;pwd&quot;:&quot;123456&quot;,&quot;regname&quot;:&quot;柠檬班&quot;}, {&quot;status&quot;:0,&quot;code&quot;:&quot;20110&quot;...)">excuteTestCase(2, 1, null, {"mobilephone":"13888886666","pwd":"123456","regname":"柠檬班"}, {"status":0,"code":"20110"...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.selenium.xyouwen.testcase.ApiTestCaseProcessor" hash-for-method="excuteTestCase(11, 2, null, {&quot;mobilephone&quot;:&quot;13888886666&quot;,&quot;pwd&quot;:&quot;1234567&quot;}, {&quot;status&quot;:&quot;0&quot;,&quot;code&quot;:&quot;20111&quot;,data:null,&quot;...)">excuteTestCase(11, 2, null, {"mobilephone":"13888886666","pwd":"1234567"}, {"status":"0","code":"20111",data:null,"...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.selenium.xyouwen.testcase.ApiTestCaseProcessor" hash-for-method="excuteTestCase(3, 1, null, {&quot;mobilephone&quot;:&quot;13888886666&quot;,&quot;pwd&quot;:&quot;&quot;,&quot;regname&quot;:&quot;柠檬班&quot;}, {&quot;status&quot;:0,&quot;code&quot;:&quot;20103&quot;,&quot;data...)">excuteTestCase(3, 1, null, {"mobilephone":"13888886666","pwd":"","regname":"柠檬班"}, {"status":0,"code":"20103","data...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.selenium.xyouwen.testcase.ApiTestCaseProcessor" hash-for-method="excuteTestCase(1, 1, null, {&quot;mobilephone&quot;:&quot;13888886666&quot;,&quot;pwd&quot;:&quot;123456&quot;,&quot;regname&quot;:&quot;柠檬班&quot;}, {&quot;status&quot;:1,&quot;code&quot;:&quot;20110&quot;...)">excuteTestCase(1, 1, null, {"mobilephone":"13888886666","pwd":"123456","regname":"柠檬班"}, {"status":1,"code":"20110"...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.selenium.xyouwen.testcase.ApiTestCaseProcessor" hash-for-method="excuteTestCase(4, 1, null, {&quot;mobilephone&quot;:&quot;&quot;,&quot;pwd&quot;:&quot;&quot;,&quot;regname&quot;:&quot;柠檬班&quot;}, {&quot;status&quot;:0,&quot;code&quot;:&quot;20103&quot;,&quot;data&quot;:null,&quot;msg...)">excuteTestCase(4, 1, null, {"mobilephone":"","pwd":"","regname":"柠檬班"}, {"status":0,"code":"20103","data":null,"msg...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.selenium.xyouwen.testcase.ApiTestCaseProcessor" hash-for-method="excuteTestCase(5, 1, null, {&quot;mobilephone&quot;:&quot;135&quot;,&quot;pwd&quot;:&quot;123456&quot;,&quot;regname&quot;:&quot;柠檬班&quot;}, {&quot;status&quot;:0,&quot;code&quot;:&quot;20109&quot;,&quot;data&quot;:...)">excuteTestCase(5, 1, null, {"mobilephone":"135","pwd":"123456","regname":"柠檬班"}, {"status":0,"code":"20109","data":...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.selenium.xyouwen.testcase.ApiTestCaseProcessor" hash-for-method="excuteTestCase(8, 2, null, {&quot;mobilephone&quot;:&quot;13888886666&quot;,&quot;pwd&quot;:&quot;&quot;}, {&quot;status&quot;:0,&quot;code&quot;:&quot;20103&quot;,&quot;data&quot;:null,&quot;msg&quot;:&quot;密码...)">excuteTestCase(8, 2, null, {"mobilephone":"13888886666","pwd":""}, {"status":0,"code":"20103","data":null,"msg":"密码...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.selenium.xyouwen.testcase.ApiTestCaseProcessor" hash-for-method="excuteTestCase(9, 2, null, {&quot;mobilephone&quot;:&quot;&quot;,&quot;pwd&quot;:&quot;123456&quot;}, {&quot;status&quot;:&quot;0&quot;,&quot;code&quot;:&quot;20103&quot;,data:null,&quot;msg&quot;:&quot;手机号不能为空...)">excuteTestCase(9, 2, null, {"mobilephone":"","pwd":"123456"}, {"status":"0","code":"20103",data:null,"msg":"手机号不能为空...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.selenium.xyouwen.testcase.ApiTestCaseProcessor" hash-for-method="excuteTestCase(6, 1, null, {&quot;mobilephone&quot;:&quot;13888886666&quot;,&quot;pwd&quot;:&quot;123&quot;,&quot;regname&quot;:&quot;柠檬班&quot;}, {&quot;status&quot;:0,&quot;code&quot;:&quot;20108&quot;,&quot;d...)">excuteTestCase(6, 1, null, {"mobilephone":"13888886666","pwd":"123","regname":"柠檬班"}, {"status":0,"code":"20108","d...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.selenium.xyouwen.testcase.ApiTestCaseProcessor" hash-for-method="excuteTestCase(7, 2, null, {&quot;mobilephone&quot;:&quot;13888886666&quot;,&quot;pwd&quot;:&quot;123456&quot;}, {&quot;status&quot;:&quot;1&quot;,&quot;code&quot;:&quot;10001&quot;,&quot;data&quot;:null,&quot;...)">excuteTestCase(7, 2, null, {"mobilephone":"13888886666","pwd":"123456"}, {"status":"1","code":"10001","data":null,"...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.selenium.xyouwen.testcase.ApiTestCaseProcessor" hash-for-method="excuteTestCase(10, 2, null, {&quot;mobilephone&quot;:&quot;13888888887&quot;,&quot;pwd&quot;:&quot;123456&quot;}, {&quot;status&quot;:&quot;0&quot;,&quot;code&quot;:&quot;20111&quot;,data:null,&quot;m...)">excuteTestCase(10, 2, null, {"mobilephone":"13888888887","pwd":"123456"}, {"status":"0","code":"20111",data:null,"m...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.selenium.xyouwen.testcase.ApiTestCaseProcessor</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="excuteTestCase(2, 1, null, {&quot;mobilephone&quot;:&quot;13888886666&quot;,&quot;pwd&quot;:&quot;123456&quot;,&quot;regname&quot;:&quot;柠檬班&quot;}, {&quot;status&quot;:0,&quot;code&quot;:&quot;20110&quot;...)">
+                  </a> <!-- excuteTestCase(2, 1, null, {"mobilephone":"13888886666","pwd":"123456","regname":"柠檬班"}, {"status":0,"code":"20110"...) -->
+                  <span class="method-name">excuteTestCase</span>
+                  <span class="parameters">(2, 1, null, {"mobilephone":"13888886666","pwd":"123456","regname":"柠檬班"}, {"status":0,"code":"20110","data":null,"msg":"手机号码已被注册"}, [{"no":"1","sql":"select count(*) as totalNum from member where mobilephone='13888886666'"}], [{"no":"1","sql":"select count(*) as totalNum from member where mobilephone='13888886666'"}])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="excuteTestCase(11, 2, null, {&quot;mobilephone&quot;:&quot;13888886666&quot;,&quot;pwd&quot;:&quot;1234567&quot;}, {&quot;status&quot;:&quot;0&quot;,&quot;code&quot;:&quot;20111&quot;,data:null,&quot;...)">
+                  </a> <!-- excuteTestCase(11, 2, null, {"mobilephone":"13888886666","pwd":"1234567"}, {"status":"0","code":"20111",data:null,"...) -->
+                  <span class="method-name">excuteTestCase</span>
+                  <span class="parameters">(11, 2, null, {"mobilephone":"13888886666","pwd":"1234567"}, {"status":"0","code":"20111",data:null,"msg":"用户名或者密码错误"}, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="excuteTestCase(3, 1, null, {&quot;mobilephone&quot;:&quot;13888886666&quot;,&quot;pwd&quot;:&quot;&quot;,&quot;regname&quot;:&quot;柠檬班&quot;}, {&quot;status&quot;:0,&quot;code&quot;:&quot;20103&quot;,&quot;data...)">
+                  </a> <!-- excuteTestCase(3, 1, null, {"mobilephone":"13888886666","pwd":"","regname":"柠檬班"}, {"status":0,"code":"20103","data...) -->
+                  <span class="method-name">excuteTestCase</span>
+                  <span class="parameters">(3, 1, null, {"mobilephone":"13888886666","pwd":"","regname":"柠檬班"}, {"status":0,"code":"20103","data":null,"msg":"密码不能为空"}, ,  )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="excuteTestCase(1, 1, null, {&quot;mobilephone&quot;:&quot;13888886666&quot;,&quot;pwd&quot;:&quot;123456&quot;,&quot;regname&quot;:&quot;柠檬班&quot;}, {&quot;status&quot;:1,&quot;code&quot;:&quot;20110&quot;...)">
+                  </a> <!-- excuteTestCase(1, 1, null, {"mobilephone":"13888886666","pwd":"123456","regname":"柠檬班"}, {"status":1,"code":"20110"...) -->
+                  <span class="method-name">excuteTestCase</span>
+                  <span class="parameters">(1, 1, null, {"mobilephone":"13888886666","pwd":"123456","regname":"柠檬班"}, {"status":1,"code":"20110","data":null,"msg":"注册成功"}, [{"no":"1","sql":"select count(*) as totalNum from member where mobilephone='13888886666'"}], [{"no":"1","sql":"select count(*) as totalNum from member where mobilephone='13888886666'"}])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="excuteTestCase(4, 1, null, {&quot;mobilephone&quot;:&quot;&quot;,&quot;pwd&quot;:&quot;&quot;,&quot;regname&quot;:&quot;柠檬班&quot;}, {&quot;status&quot;:0,&quot;code&quot;:&quot;20103&quot;,&quot;data&quot;:null,&quot;msg...)">
+                  </a> <!-- excuteTestCase(4, 1, null, {"mobilephone":"","pwd":"","regname":"柠檬班"}, {"status":0,"code":"20103","data":null,"msg...) -->
+                  <span class="method-name">excuteTestCase</span>
+                  <span class="parameters">(4, 1, null, {"mobilephone":"","pwd":"","regname":"柠檬班"}, {"status":0,"code":"20103","data":null,"msg":"手机号不能为空"}, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="excuteTestCase(5, 1, null, {&quot;mobilephone&quot;:&quot;135&quot;,&quot;pwd&quot;:&quot;123456&quot;,&quot;regname&quot;:&quot;柠檬班&quot;}, {&quot;status&quot;:0,&quot;code&quot;:&quot;20109&quot;,&quot;data&quot;:...)">
+                  </a> <!-- excuteTestCase(5, 1, null, {"mobilephone":"135","pwd":"123456","regname":"柠檬班"}, {"status":0,"code":"20109","data":...) -->
+                  <span class="method-name">excuteTestCase</span>
+                  <span class="parameters">(5, 1, null, {"mobilephone":"135","pwd":"123456","regname":"柠檬班"}, {"status":0,"code":"20109","data":null,"msg":"手机号码格式不正确"}, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="excuteTestCase(8, 2, null, {&quot;mobilephone&quot;:&quot;13888886666&quot;,&quot;pwd&quot;:&quot;&quot;}, {&quot;status&quot;:0,&quot;code&quot;:&quot;20103&quot;,&quot;data&quot;:null,&quot;msg&quot;:&quot;密码...)">
+                  </a> <!-- excuteTestCase(8, 2, null, {"mobilephone":"13888886666","pwd":""}, {"status":0,"code":"20103","data":null,"msg":"密码...) -->
+                  <span class="method-name">excuteTestCase</span>
+                  <span class="parameters">(8, 2, null, {"mobilephone":"13888886666","pwd":""}, {"status":0,"code":"20103","data":null,"msg":"密码不能为空"}, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="excuteTestCase(9, 2, null, {&quot;mobilephone&quot;:&quot;&quot;,&quot;pwd&quot;:&quot;123456&quot;}, {&quot;status&quot;:&quot;0&quot;,&quot;code&quot;:&quot;20103&quot;,data:null,&quot;msg&quot;:&quot;手机号不能为空...)">
+                  </a> <!-- excuteTestCase(9, 2, null, {"mobilephone":"","pwd":"123456"}, {"status":"0","code":"20103",data:null,"msg":"手机号不能为空...) -->
+                  <span class="method-name">excuteTestCase</span>
+                  <span class="parameters">(9, 2, null, {"mobilephone":"","pwd":"123456"}, {"status":"0","code":"20103",data:null,"msg":"手机号不能为空"}, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="excuteTestCase(6, 1, null, {&quot;mobilephone&quot;:&quot;13888886666&quot;,&quot;pwd&quot;:&quot;123&quot;,&quot;regname&quot;:&quot;柠檬班&quot;}, {&quot;status&quot;:0,&quot;code&quot;:&quot;20108&quot;,&quot;d...)">
+                  </a> <!-- excuteTestCase(6, 1, null, {"mobilephone":"13888886666","pwd":"123","regname":"柠檬班"}, {"status":0,"code":"20108","d...) -->
+                  <span class="method-name">excuteTestCase</span>
+                  <span class="parameters">(6, 1, null, {"mobilephone":"13888886666","pwd":"123","regname":"柠檬班"}, {"status":0,"code":"20108","data":null,"msg":"密码长度必须为6~18"}, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="excuteTestCase(7, 2, null, {&quot;mobilephone&quot;:&quot;13888886666&quot;,&quot;pwd&quot;:&quot;123456&quot;}, {&quot;status&quot;:&quot;1&quot;,&quot;code&quot;:&quot;10001&quot;,&quot;data&quot;:null,&quot;...)">
+                  </a> <!-- excuteTestCase(7, 2, null, {"mobilephone":"13888886666","pwd":"123456"}, {"status":"1","code":"10001","data":null,"...) -->
+                  <span class="method-name">excuteTestCase</span>
+                  <span class="parameters">(7, 2, null, {"mobilephone":"13888886666","pwd":"123456"}, {"status":"1","code":"10001","data":null,"msg":"登录成功"}, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="excuteTestCase(10, 2, null, {&quot;mobilephone&quot;:&quot;13888888887&quot;,&quot;pwd&quot;:&quot;123456&quot;}, {&quot;status&quot;:&quot;0&quot;,&quot;code&quot;:&quot;20111&quot;,data:null,&quot;m...)">
+                  </a> <!-- excuteTestCase(10, 2, null, {"mobilephone":"13888888887","pwd":"123456"}, {"status":"0","code":"20111",data:null,"m...) -->
+                  <span class="method-name">excuteTestCase</span>
+                  <span class="parameters">(10, 2, null, {"mobilephone":"13888888887","pwd":"123456"}, {"status":"0","code":"20111",data:null,"msg":"用户名或者密码错误"}, , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\51000765\AppData\Local\Temp\testng-eclipse--1295860666\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Default suite&quot;&gt;
+  &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.selenium.xyouwen.testcase.ApiTestCaseProcessor&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(11);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'excuteTestCase')
+data.setCell(0, 2, 'com.selenium.xyouwen.testcase.ApiTestCaseProcessor')
+data.setCell(0, 3, 1116);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'excuteTestCase')
+data.setCell(1, 2, 'com.selenium.xyouwen.testcase.ApiTestCaseProcessor')
+data.setCell(1, 3, 251);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'excuteTestCase')
+data.setCell(2, 2, 'com.selenium.xyouwen.testcase.ApiTestCaseProcessor')
+data.setCell(2, 3, 39);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'excuteTestCase')
+data.setCell(3, 2, 'com.selenium.xyouwen.testcase.ApiTestCaseProcessor')
+data.setCell(3, 3, 31);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'excuteTestCase')
+data.setCell(4, 2, 'com.selenium.xyouwen.testcase.ApiTestCaseProcessor')
+data.setCell(4, 3, 29);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'excuteTestCase')
+data.setCell(5, 2, 'com.selenium.xyouwen.testcase.ApiTestCaseProcessor')
+data.setCell(5, 3, 28);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'excuteTestCase')
+data.setCell(6, 2, 'com.selenium.xyouwen.testcase.ApiTestCaseProcessor')
+data.setCell(6, 3, 26);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'excuteTestCase')
+data.setCell(7, 2, 'com.selenium.xyouwen.testcase.ApiTestCaseProcessor')
+data.setCell(7, 3, 25);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'excuteTestCase')
+data.setCell(8, 2, 'com.selenium.xyouwen.testcase.ApiTestCaseProcessor')
+data.setCell(8, 3, 24);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'excuteTestCase')
+data.setCell(9, 2, 'com.selenium.xyouwen.testcase.ApiTestCaseProcessor')
+data.setCell(9, 3, 23);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'excuteTestCase')
+data.setCell(10, 2, 'com.selenium.xyouwen.testcase.ApiTestCaseProcessor')
+data.setCell(10, 3, 23);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 seconds</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">1 ignored method</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.selenium.xyouwen.testcase.ApiTestCaseProcessor</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">f</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.selenium.xyouwen.testcase.ApiTestCaseProcessor</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">excuteTestCase(1, 1, null, {"mobilephone":"13888886666","pwd":"123456","regname":"柠檬班"}, {"status":1,"code":"20110"...)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">excuteTestCase(2, 1, null, {"mobilephone":"13888886666","pwd":"123456","regname":"柠檬班"}, {"status":0,"code":"20110"...)</span>
+                <span class="method-start">1116 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">excuteTestCase(3, 1, null, {"mobilephone":"13888886666","pwd":"","regname":"柠檬班"}, {"status":0,"code":"20103","data...)</span>
+                <span class="method-start">1368 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">excuteTestCase(4, 1, null, {"mobilephone":"","pwd":"","regname":"柠檬班"}, {"status":0,"code":"20103","data":null,"msg...)</span>
+                <span class="method-start">1395 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">excuteTestCase(5, 1, null, {"mobilephone":"135","pwd":"123456","regname":"柠檬班"}, {"status":0,"code":"20109","data":...)</span>
+                <span class="method-start">1420 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">excuteTestCase(6, 1, null, {"mobilephone":"13888886666","pwd":"123","regname":"柠檬班"}, {"status":0,"code":"20108","d...)</span>
+                <span class="method-start">1445 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">excuteTestCase(7, 2, null, {"mobilephone":"13888886666","pwd":"123456"}, {"status":"1","code":"10001","data":null,"...)</span>
+                <span class="method-start">1485 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">excuteTestCase(8, 2, null, {"mobilephone":"13888886666","pwd":""}, {"status":0,"code":"20103","data":null,"msg":"密码...)</span>
+                <span class="method-start">1515 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">excuteTestCase(9, 2, null, {"mobilephone":"","pwd":"123456"}, {"status":"0","code":"20103",data:null,"msg":"手机号不能为空...)</span>
+                <span class="method-start">1538 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">excuteTestCase(10, 2, null, {"mobilephone":"13888888887","pwd":"123456"}, {"status":"0","code":"20111",data:null,"m...)</span>
+                <span class="method-start">1562 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">excuteTestCase(11, 2, null, {"mobilephone":"13888886666","pwd":"1234567"}, {"status":"0","code":"20111",data:null,"...)</span>
+                <span class="method-start">1593 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-suite after">
+                <span class="method-name">afterSuite</span>
+                <span class="method-start">1672 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
