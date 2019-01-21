@@ -14,7 +14,7 @@ public class CookieData {
 	private String cookieKey;
 	private String cookieValue;
 	
-	public String getDomaiName() {
+	public String getDomainName() {
 		return domainName;
 	}
 	public void setDomainName(String domainName) {
@@ -34,7 +34,7 @@ public class CookieData {
 	}
 	@Override
 	public String toString() {
-		return "CookieData [domaiName=" + domainName + ", cookieKey=" + cookieKey + ", cookieValue=" + cookieValue + "]";
+		return "CookieData [domainName=" + domainName + ", cookieKey=" + cookieKey + ", cookieValue=" + cookieValue + "]";
 	}
 	
 	public CookieData(String domainName, String cookieKey, String cookieValue) {
