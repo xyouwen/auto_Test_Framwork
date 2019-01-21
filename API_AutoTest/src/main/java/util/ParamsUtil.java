@@ -59,7 +59,6 @@ public class ParamsUtil {
                 // 用value替换完整字符串，比如用13888888888替换${mobilephone}
                 str = str.replace(totalStr,value);
             }
-
         } catch (Exception e) {
             e.printStackTrace();
             System.out.println("全局变量池中缺少替换的数据");
