@@ -81,7 +81,7 @@ public class ParamsUtil {
 			try {
 				// 4-1 如果参数为空
 				if (StringUtil.isEmpty(params)) {
-					// 5-1 获得方法名称
+					// 5-1 通过方法名称找到该方法
 					Method method = clazz.getMethod(functionName);  // functionName为方法名, 因为没有参数，所以参数传入空，同clazz.getMethod(functionName, null)
 					result = (String) method.invoke(null);
 				}

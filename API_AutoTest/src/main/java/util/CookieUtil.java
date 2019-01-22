@@ -23,8 +23,8 @@ public class CookieUtil {
 
 	/**
 	 * 通过域名从cookie的全局变量池中取出cookieDatas，并添加到header中
-	 * @param URL
-	 * @param requestType
+	 * @param URL 请求地址
+	 * @param requestType 请求类型
 	 */
 	public static void autoAddCookiesToHeaderByDomainName(String URL, HttpRequestBase requestType) {
 		// 1、从URL中提取域名
@@ -39,6 +39,11 @@ public class CookieUtil {
 		}
 	}
 
+	/**
+	 * 从url中获取域名
+	 * @param URL 请求地址
+	 * @return 域名
+	 */
 	private static String getDomainName(String URL) {
 		String regex = "//(.*?)/";
 		Matcher matcher = RegexUtil.getMatcher(URL, regex);
@@ -58,9 +63,9 @@ public class CookieUtil {
 
 	
 	/**
-	 * 通过域名全局变量池中获取cookie对象
-	 * @param domainName
-	 * @return
+	 * 通过域名从全局变量池中获取cookie对象
+	 * @param domainName 域名
+	 * @return cookie对象
 	 */
 	private static List<CookieData> getCookiesFromGlobalByDomainName(String domainName) {
 		// 1、新建一个List容器
@@ -79,9 +84,14 @@ public class CookieUtil {
 		return cookieDatas;
 	}
 
+	/**
+	 * 从响应头中获取cookie，并自动保存到cookie的全局变量池
+	 * @param response 响应
+	 * @param URL 请求地址
+	 */
 	public static void autoSaveCookiesFromResponseHeader(CloseableHttpResponse response, String URL) {
 		// 1、从响应头中获取cookies
-		List<CookieData> cookieDatas = getCookiesFromReponseHeader(response, URL);
+		List<CookieData> cookieDatas = getCookiesFromResponseHeader(response, URL);
 		
 		// 2、将cookies添加到全局变量池
 		for (CookieData cookieData : cookieDatas) {
@@ -99,8 +109,17 @@ public class CookieUtil {
 			Transfer-Encoding:"chunked"
 			Date:"Fri, 18 Jan 2019 07:07:16 GMT"
 	 */
-	private static List<CookieData> getCookiesFromReponseHeader(CloseableHttpResponse response, String URL) {
+
+	/**
+	 * 从响应头中获取cookie
+	 * @param response
+	 * @param URL
+	 * @return
+	 */
+	private static List<CookieData> getCookiesFromResponseHeader(CloseableHttpResponse response, String URL) {
 		List<CookieData> cookieDatas = new ArrayList<CookieData>();
+
+		// 1、按Set-Cookie，获取响应头
 		Header[] headers = response.getHeaders("Set-Cookie");
 		for (Header header : headers) {
 			// 如果header非空

@@ -221,7 +221,7 @@ public class ExcellUtil {
 			
 			// 2、新建一个sheet
 			Sheet sheet = workbook.getSheetAt(sheetIndex - 1);
-			
+
 			// 3、获取表头（表字段）的内容，将其存放在一个数组容器里
 			//3-1 找到第一行
 			Row firstRow = sheet.getRow(0);
@@ -251,7 +251,7 @@ public class ExcellUtil {
 				// 新建一个对象，用来存放每一行的数据
 				ExcelRowObject excelRowObject = clazz.newInstance();
 				
-				// 将该对向在Excel表格中的行号，设值给对象
+				// 将该对象在Excel表格中的行号，设值给对象
 				Method setRowNumMethod = clazz.getMethod("setRowNum",int.class);
 				setRowNumMethod.invoke(excelRowObject, j+1);
 				
