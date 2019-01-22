@@ -70,7 +70,7 @@ public class CookieUtil {
 		for (String key : keys) {
 			CookieData cookieData = cookieDataMap.get(key);
 			// 2、获取cookieData的属性之一：domainName
-			String dName = cookieData.getDomaiName();
+			String dName = cookieData.getDomainName();
 			// 3、如果匹配，就往List列表里添加数据
 			if (domainName.equals(dName)) {
 				cookieDatas.add(cookieData);
