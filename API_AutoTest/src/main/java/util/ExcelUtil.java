@@ -63,10 +63,9 @@ public class ExcelUtil {
     }
     private static void testGetFieldNameArray(){
         try {
-            String excellPath ="D:\\xyouwen\\02- study\\002- git\\auto_Test_Framwork\\API_AutoTest\\src\\main\\resources\\testCase\\rest_info_2.xlsx";
-            System.out.println(excellPath);
+            String excellPath = "/testCase/rest_info_2.xlsx";
             // 1、获取workbook
-            InputStream inputStream =new FileInputStream(new File(excellPath));
+            InputStream inputStream = ExcelUtil.class.getResourceAsStream(excellPath);
             Workbook workbook = WorkbookFactory.create(inputStream);
 
             // 2、获取sheet
