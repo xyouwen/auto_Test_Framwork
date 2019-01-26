@@ -50,7 +50,7 @@ public class TestFileInputStream {
         }finally {
             if (fis != null){
                 try {
-                    // 4、关闭输入字节流（因为字节流是稀缺资源，一定要回收）
+                    // 4、关闭输入字节流（程序中打开的文件IO资源不属于内存里的资源，垃圾回收机制无法回收该资源，所以应该显式关闭文件 IO 资源）
                     fis.close();
                 } catch (IOException e) {
                     e.printStackTrace();
