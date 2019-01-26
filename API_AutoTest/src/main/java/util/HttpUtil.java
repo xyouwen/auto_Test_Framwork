@@ -57,7 +57,9 @@ public class HttpUtil {
             post.setEntity(new UrlEncodedFormEntity(parameters));    //将参数设置到请求体
 
             // 5、手动添加header
-            addHeaders(headersMap, post);
+            if (headersMap != null){
+                addHeaders(headersMap, post);
+            }
 
             // 6、自动添加cookie：从全局变量池中按“域名”，自动添加cookie到header中
             CookieUtil.autoAddCookiesToHeaderByDomainName(URL, post);
