@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 这条语句用来规范testng.xml文件的写入格式，有了这条语句之后，打入<时，才有智能提醒 -->
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<!-- suite的名称 -->
+<suite name="Suite" parallel="false">
+
+	<!-- test的名称 -->
+	<test name="SeleniumUtilTest">
+		<classes>
+			<!-- 一定要把执行的java文件的路径写进来 -->
+			<class name="testCase.LoginTest" />
+		</classes>
+	</test> <!-- Test -->
+
+	<!-- 浏览器的名称 -->
+	<parameter name="deviceName" value="firefox">
+	</parameter>
+
+	<!-- 浏览器的安装路径 -->
+	<parameter name="platformName"
+		value="C:\Program Files (x86)\Mozilla Firefox\firefox.exe">
+	</parameter>
+
+	<!-- 浏览器的驱动路径 -->
+	<parameter name="appPackage" value="">
+	</parameter>
+
+	<!-- selenium的版本 -->
+	<parameter name="appActivity" value="">
+	</parameter>
+
+	<parameter name="systemPort" value="">
+	</parameter>
+
+
+</suite> <!-- Suite -->
